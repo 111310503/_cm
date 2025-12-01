@@ -19,8 +19,6 @@ def theorem1(f, x):
 
 def f(x):
     return x**3
-
 print('df(f, 2)=', df(f, 2))
 print('integral(f, 0, 2)=', integral(f, 0, 2))
-
 theorem1(f, 2)
